@@ -1,2 +1,2 @@
 # Battery-Sizing
-We want to obtain the optimal battery capacity in a grid-connected energy system.
+Our objective is to determine the optimal battery capacity in a grid-connected PV-battery system. The code is organized into several modular components, all integrated through a main script. To execute the program, simply run the main file—it automatically calls the necessary modules. The only variable input is the dataset, which can be adjusted as needed. The optimization process leverages the Pyomo library, and the results are saved and visualized in the output file.
