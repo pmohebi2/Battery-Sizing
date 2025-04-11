@@ -5,6 +5,6 @@ To execute the program, simply run the main file—it automatically calls the ne
 # Input
 The only variable module is the input, which can be adjusted as needed. This module includes battery features, Time of use, and Net load data (data.csv) for the year, including 8760 hours.
 # Optimizer
-The optimization process uses the Pyomo library. The objective is to minim ize annual cost.
+The optimization process uses the Pyomo library. The objective is to minimize annual cost.
 # Output
 The results are saved and visualized in the output file.
