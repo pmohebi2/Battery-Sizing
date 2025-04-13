@@ -1,9 +1,7 @@
 # Battery-Sizing
 Our objective is to determine the optimal battery capacity in a grid-connected PV-battery system. The code is organized into several components, all integrated through the  main script.
 # Main 
-To execute the program, simply run the main file—it automatically calls the necessary modules. 
-
-[Up# Imports
+# Imports
 import pyomo.environ as pyo
 import time
 from Input import initialize_data
@@ -49,12 +47,6 @@ if __name__ == "__main__":
 
     # Save results and plot
     save_and_plot_results(model)
-
-
-
-loading Main.py…]()
-
-
 # Input
 The only variable module is the input, which can be adjusted as needed. This module includes battery features, Time of use, and Net load data (data.csv) for the year, including 8760 hours.
 # Optimizer
